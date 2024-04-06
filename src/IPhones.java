@@ -1,7 +1,7 @@
 import devices.Smartphones;
-import devices.iOS;
+import devices.IOS;
 
-public class iPhones implements Smartphones, iOS {
+public class IPhones implements Smartphones, IOS {
     @Override
     public void call() {
         System.out.println("Виклик на iPhone");
@@ -18,7 +18,7 @@ public class iPhones implements Smartphones, iOS {
     }
 
     @Override
-    public void iOSApp() {
+    public void IOSApp() {
         System.out.println("Встановлення iOS додатка на iPhone");
     }
 }

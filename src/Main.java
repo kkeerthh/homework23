@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Smartphones android = new Androids();
-        Smartphones iphone = new iPhones();
+        Smartphones iphone = new IPhones();
 
         System.out.println("Мобільний телефон-Android");
         android.call();
@@ -16,6 +16,6 @@ public class Main {
         iphone.call();
         iphone.sms();
         iphone.internet();
-        ((iPhones) iphone).iOSApp();
+        ((IPhones) iphone).IOSApp();
     }
 }
